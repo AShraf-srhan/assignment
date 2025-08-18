@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+}
+img {
+  /* width: 100%; */
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-80 {
+  width: 80%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-75 {
+  width: 70%;
+}
+.w-25 {
+  width: 25%;
+}
+.h-6 {
+  height: 40rem;
+}
+.h-25 {
+  height: 25rem;
+}
+.h-4{
+  height: 20rem;
+}
+
+.col-1 {
+  width: calc(100% / 12);
+}
+.col-2 {
+  width: calc(100% / 12 * 2);
+}
+.col-3 {
+  width: calc(100% / 12 * 3);
+}
+.col-4 {
+  width: calc(100% / 12 * 4);
+}
+.col-5 {
+  width: calc(100% / 12 * 5);
+}
+.col-6 {
+  width: calc(100% / 12 * 6);
+}
+.col-7 {
+  width: calc(100% / 12 * 7);
+}
+.col-8 {
+  width: calc(100% / 12 * 8);
+}
+.col-9 {
+  width: calc(100% / 12 * 9);
+}
+.col-10 {
+  width: calc(100% / 12 * 10);
+}
+.col-11 {
+  width: calc(100% / 12 * 11);
+}
+.col-12 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap:2; */
+}
+.d-block {
+  display: block;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1;
+  padding-right: 40px;
+}
+.flex-2 {
+  flex: 1.5;
+}
+.g-1{
+  gap: 10px;
+}
+.g-2{
+  gap: 20px;
+}
+.align-item-center {
+  align-items: center;
+}
+.d-inline-block {
+  display: inline-block;
+}
+
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.text-end {
+  text-align: end;
+}
+.text-center {
+  text-align: center;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+.l-height {
+  line-height: 1.5;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 1.2rem;
+}
+.mx-1 {
+  margin: 0 1rem;
+}
+.mx-5 {
+  margin: 0 5rem;
+}
+
+.my-2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+.my-5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.p-2 {
+  padding: 2%;
+}
+.p-3 {
+  padding: 3%;
+}
+.py-5{
+  padding: 25px 0px;
+
+}
+.p-5 {
+  padding: 3% 10%;
+}
+.px-2 {
+  padding: 0 2rem;
+}
+.px-1 {
+  padding: 0 1.5rem;
+}
+.p-3 {
+  padding: 1rem 7rem;
+}
+/* .btn {
+  display: inline-block;
+  padding: 2% 5%;
+} */
+.btn-sm {
+  font-size: 0.8rem;
+  padding: 1% 3.5%;
+}
+.border-0 {
+  border: none;
+}
+
+.bg-transparant {
+  background: transparent;
+}
+.bg-main {
+  background: #fff3e3;
+}
+.bg-white {
+  background: #fff;
+}
+.bg-brown {
+  background: #b88e2f;
+}
+.bg-dark {
+  background-color: black;
+}
+.f-bold {
+  font-weight: bold;
+}
+.f-1 {
+  font-size: 1.5rem;
+}
+.f-2 {
+  font-size: 2rem;
+}
+.f-3 {
+  font-size: 3rem;
+}
+.text-black {
+  color: #000;
+}
+.text-white {
+  color: white;
+}
+.text-main {
+  color: #b88e2f;
+}
+.text-muted {
+  color: #777777;
+  /* font-weight: bold; */
+}
+.border-main {
+  border: 1px solid #b88e2f;
+}
+.overflow-hidden{
+  overflow: hidden;
+}
+/* --------------header--------------------- */
+.header-img {
+  top: 0;
+  bottom: 0;
+}
+.header-content {
+  background: #fff3e3;
+  top: 150px;
+  right: 250px;
+}
+.header-content .tittle {
+  letter-spacing: 3px;
+}
+.header-content h1 {
+  letter-spacing: 3px;
+  font-size: 3rem;
+  color: #b88e2f;
+}
+/* --------------products--------------- */
+
+.card {
+  width: 23%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.discount {
+  top: 10px;
+  right: 10px;
+  background-color: rgba(226, 11, 11, 0.674);
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-4 {
+  padding: 4%;
+}
+.overlay {
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 15px;
+}
+.overlay .arrow {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+.footer .footer-input,.footer-btn{
+  padding: 5px 12px;
+  border-bottom: 0.5px solid black;
+}
+
+.blog-category input{
+  left: 30px;
+  top: 0px;
+  padding: 3% 8%;
+  border: 0.5px solid silver;
+  width: 80%;
+  border-radius: 15px;
+}
+.blog-category i{
+  top: 35px;
+  right: 80px;
+}
+.count{
+width: 4%;
+height: 4%;
+padding: 1% 1%;
+border-radius: 15px;
+}
+.ipt{
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: 0.5px solid silver;
+}
