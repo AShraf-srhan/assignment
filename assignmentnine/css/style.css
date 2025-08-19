@@ -231,6 +231,9 @@ img {
 .f-3 {
   font-size: 3rem;
 }
+  .fw-1{
+  font-weight: 200;
+}
 .text-black {
   color: #000;
 }
@@ -290,6 +293,25 @@ img {
   justify-content: center;
   align-items: center;
 }
+.card-hover{
+  position: absolute;
+  top: 0px;
+  bottom: 0px; 
+  left: 0px;
+  right: 0px;
+  background: #000000bb;
+  opacity: 0;
+  z-index: 5;
+  
+  transition: all 0.5s ease-in;
+}
+.card-hover:hover button{
+  background:#b88e2f;
+  color: white;
+}
+.card:hover .card-hover{
+  opacity: 1 ;
+}
 .p-4 {
   padding: 4%;
 }
@@ -329,5 +351,11 @@ border-radius: 15px;
 .ipt{
   padding: 20px 20px;
   border-radius: 10px;
+  border: 0.5px solid silver;
+}
+.checkout-btn{
+  border: none;
+  padding: 5% 25%;
+  border-radius: 15px;
   border: 0.5px solid silver;
 }
